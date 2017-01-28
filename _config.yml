@@ -2,7 +2,7 @@
 title: bls dot rocks
 description: "Simples blog para guardar artigos escritos sobre estudos de desenvolvimento web e tecnologias afins."
 baseurl: ""
-url: ""
+url: "https://bls.rocks"
 email: brunolsk3@gmail.com
 github: blsdotrocks
 codepen: blsdotrocks
