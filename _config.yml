@@ -1,0 +1,13 @@
+# Site settings
+title: bls dot rocks
+description: "Simples blog para guardar artigos escritos sobre estudos de desenvolvimento web e tecnologias afins."
+baseurl: ""
+url: ""
+email: brunolsk3@gmail.com
+github: blsdotrocks
+codepen: blsdotrocks
+twitter: blsdotrocks
+
+# Build settings
+markdown: kramdown
+permalink: /:title/

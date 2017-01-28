@@ -1,0 +1,123 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    width: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #373737;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Open Sans', sans-serif;
+    color: #373737;
+    margin-bottom: .5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4, h5, h6 {
+    font-size: 1rem;
+}
+
+p, span {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+p {
+    font-family: 'Droid Serif', serif;
+    margin: 0 0 0 1rem;
+}
+
+ul, ol, dl {
+    margin: 0 0 1rem 1rem;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: .5rem;
+}
+
+ul {
+    list-style: inside circle;
+    padding-left: 0;
+
+    li {
+        margin-bottom: .25rem;
+    }
+
+    ul,
+    ol {
+        margin-top: .25rem;
+        margin-bottom: .5rem;
+    }
+}
+
+ol {
+    list-style: inside decimal;
+    padding-left: 0;
+
+    li {
+        margin-bottom: .25rem;
+    }
+
+    ul,
+    ol {
+        margin-top: .25rem;
+        margin-bottom: .5rem;
+    }
+}
+
+pre {
+    overflow-x: scroll;
+    margin: 2rem;
+}
+
+img, iframe {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+iframe {
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 800px) {
+        height: 29vw;
+        max-width: 75%;
+    }
+}
