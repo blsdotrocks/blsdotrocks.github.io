@@ -1,7 +1,6 @@
 ---
 layout: post
 title: É o seu cérebro
-date: 2017-01-30 00:43:41 -0300
 description: Post curto falando sobre barreiras que todo nós enfrentamos em cada dia que vivemos, seja emocional, física, financeira ou pessoal, mas há uma barreira que não é real.
 ---
 Todo mundo enfrenta barreiras diariamente, sejam essas barreiras físicas, financeiras ou pessoais. Porém existem barreiras que te limitam e não são reais.
