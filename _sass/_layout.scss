@@ -1,9 +1,19 @@
 .masthead {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height: 10rem;
+    margin-left: 13rem;
+
+    @media screen and (max-width: 600px) {
+    	align-items: center;
+    	margin-left: 0;
+    }
+}
+
+.masthead-title {
+	text-transform: lowercase;
 }
 
 .social-media-list {
@@ -44,10 +54,9 @@
 }
 
 .list-post-title {
-    font-size: 2rem;
     font-weight: normal;
-    margin-bottom: 2rem;
-
+    text-transform: lowercase; 
+    
     @media screen and (max-width: 600px) {
         font-size: 2rem;
         margin-bottom: 0;
@@ -55,7 +64,7 @@
 }
 
 .list-post-date {
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 0 1rem;
 }
 
 .comments {
