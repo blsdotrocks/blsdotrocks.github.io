@@ -1,7 +1,8 @@
 # Site settings
-title: bls dot rocks
-description: "Simples blog para guardar artigos escritos sobre estudos de desenvolvimento web e tecnologias afins."
+title: Bruno Lima
+description: "Simples blog para guardar artigos escritos sobre estudos de desenvolvimento web e software e tecnologias afins."
 baseurl: ""
+autor: Bruno Lima da Silva
 url: "https://bls.rocks"
 email: brunolsk3@gmail.com
 github: blsdotrocks

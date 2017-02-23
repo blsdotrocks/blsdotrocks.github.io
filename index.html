@@ -1,17 +1,17 @@
 ---
-title: "Bruno"
+title: "Bruno Lima"
 layout: default
 ---
 
-<div class="content list">
+<section class="content list">
     {% for post in site.posts %}
-        <div class="list-item">
-            <h2 class="list-post-title">
+        <ul class="list-item">
+        	<li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <div class="list-post-date">
-                <time>{{ post.date | date_to_string }}</time>
-            </div>
-        </div>
+	            <span class="list-post-date">
+	                <time>{{ post.date | date_to_string }}</time>
+	            </span>
+        	</li>
+        </ul>
     {% endfor %}
-</div>
+</section>
