@@ -9,8 +9,10 @@ layout: default
         	<li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	            <span class="list-post-date">
-	                <time>{{ post.date | date_to_string }}</time>
+	                <!-- <time>{{ post.date | date_to_string }}</time> -->
 	            </span>
+	            <p>{{ post.description }}</p>
+	            <hr>
         	</li>
         </ul>
     {% endfor %}

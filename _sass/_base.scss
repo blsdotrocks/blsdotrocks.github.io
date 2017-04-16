@@ -30,9 +30,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
-    
-    font-family: 'PT Serif', serif;
-
     color: #373737;
     margin-bottom: .5rem;
 }
@@ -80,6 +77,7 @@ ul {
 
     li {
         margin-bottom: .25rem;
+        width: 100%;
     }
 
     ul,
@@ -102,6 +100,10 @@ ol {
         margin-top: .25rem;
         margin-bottom: .5rem;
     }
+}
+
+hr {
+	color: #EDEDEF;
 }
 
 pre {

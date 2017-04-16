@@ -3,21 +3,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 10rem;
-	max-width: 60%;
+    height: 30vh;
+	width: 100%;
 	text-align: center;
-
-
 }
 
 .masthead-title {
 	text-transform: lowercase;
 }
 
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .social-media-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+    width: 20%;
     list-style: none;
     margin: 2rem 2rem;
 
@@ -46,7 +49,6 @@
     flex-direction: row;
     align-items: center;
     list-style: none;
-    margin-bottom: 0;
 
     @media screen and (max-width: 600px) {
         flex-direction: column;
